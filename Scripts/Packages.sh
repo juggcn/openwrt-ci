@@ -32,9 +32,13 @@ UPDATE_PACKAGE "ssr-plus" "fw876/helloworld" "master"
 UPDATE_PACKAGE "advancedplus" "VIKINGYFY/luci-app-advancedplus" "main"
 UPDATE_PACKAGE "gecoosac" "lwb1978/openwrt-gecoosac" "main"
 
+UPDATE_PACKAGE "lucky" "gdy666/luci-app-lucky" "main"
 UPDATE_PACKAGE "istore" "linkease/istore" "main"
 UPDATE_PACKAGE "nas-packages" "linkease/nas-packages" "master"
 UPDATE_PACKAGE "nas_luci" "linkease/nas-packages-luci" "main"
+
+UPDATE_PACKAGE "wizard" "sirpdboy/luci-app-wizard" "main"
+UPDATE_PACKAGE "autotimeset" "sirpdboy/luci-app-autotimeset" "master"
 
 if [[ $WRT_REPO != *"lede"* ]]; then
 	UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
