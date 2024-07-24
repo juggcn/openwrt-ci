@@ -37,8 +37,9 @@ UPDATE_PACKAGE "istore" "linkease/istore" "main"
 UPDATE_PACKAGE "nas-packages" "linkease/nas-packages" "master"
 UPDATE_PACKAGE "nas_luci" "linkease/nas-packages-luci" "main"
 
-UPDATE_PACKAGE "wizard" "sirpdboy/luci-app-wizard" "main"
 UPDATE_PACKAGE "autotimeset" "sirpdboy/luci-app-autotimeset" "master"
+UPDATE_PACKAGE "alist" "sbwml/luci-app-alist" "master"
+UPDATE_PACKAGE "wechatpush" "tty228/luci-app-wechatpush" "master"
 
 if [[ $WRT_REPO != *"lede"* ]]; then
 	UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
