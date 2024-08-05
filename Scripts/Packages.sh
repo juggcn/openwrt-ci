@@ -42,6 +42,7 @@ UPDATE_PACKAGE "alist" "sbwml/luci-app-alist" "master"
 UPDATE_PACKAGE "wechatpush" "tty228/luci-app-wechatpush" "master"
 
 if [[ $WRT_REPO != *"lede"* ]]; then
+	UPDATE_PACKAGE "daed" "QiuSimons/luci-app-daed" "master"
 	UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
 	UPDATE_PACKAGE "mihomo" "morytyann/OpenWrt-mihomo" "main" "pkg"
 fi
